@@ -4,9 +4,9 @@ import random
 from telegram import Update
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, ConversationHandler
 
-BOT_KEY = "тут сам токен впиши"
+BOT_KEY = "5378446164:AAESwV5Xoh2pFZdiabxATMvSOteBBzgsBIU"
 
-config_file = open("/content/pizza.json","r")
+config_file = open("/content/pizzadostavka.json","r")
 BOT_CONFIG = json.load(config_file)
 
 
